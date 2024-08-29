@@ -137,6 +137,6 @@ Privacy & terms
 -How it works
 -Meals (and list of diets)
 -Testimonials + gallary
-Pricing
+Pricing + features
 CTA
 Footer
