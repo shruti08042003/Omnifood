@@ -5,6 +5,10 @@
 }
 
 html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
 }
@@ -24,6 +28,7 @@ body {
 /**************************/
 
 .container {
+  /* 1140px */
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
@@ -33,6 +38,8 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
+
+  /* margin-bottom: 9.6rem; */
 }
 
 /* .grid:last-child {
