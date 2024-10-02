@@ -93,4 +93,17 @@
   .meal-content {
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
   }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta {
+    /* 3/5 = 60% + 2/5 = 40% */
+    grid-template-columns: 3fr 2fr;
+  }
 }
