@@ -2,7 +2,7 @@
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
 
-@media (max-width: 84rem) {
+@media (max-width: 84em) {
   .hero {
     max-width: 120rem;
   }
@@ -19,8 +19,10 @@
 /**************************/
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/
-@media (max-width: 75rem) {
+
+@media (max-width: 75em) {
   html {
+    /* 9px / 16px  */
     font-size: 56.25%;
   }
 
@@ -28,6 +30,7 @@
     column-gap: 4.8rem;
     row-gap: 6.4rem;
   }
+
   .heading-secondary {
     font-size: 3.6rem;
   }
@@ -57,8 +60,9 @@
 /* BELOW 944px (Tablets) */
 /**************************/
 
-@media (max-width: 59rem) {
+@media (max-width: 59em) {
   html {
+    /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
 
