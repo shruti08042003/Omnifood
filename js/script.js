@@ -4,6 +4,13 @@ const myName = "Shruti kumari";
 const h1 = document.querySelector(".heading-primary");
 console.log(myName);
 console.log(h1);
+
+///////////////////////////////////////////////////////////
+// Set current year
+const yearEl = document.querySelector(".year");
+const currentYear = new Date().getFullYear();
+yearEl.textContent = currentYear;
+
 ////////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
